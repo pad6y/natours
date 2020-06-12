@@ -15,6 +15,7 @@ const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
 const viewRouter = require('./routes/viewRoutes');
 
+// Start express appgit status
 const app = express();
 
 app.set('view engine', 'pug');
